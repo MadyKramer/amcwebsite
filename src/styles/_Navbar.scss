@@ -1,0 +1,24 @@
+@import "./_variables";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  &__logo img {
+    width: 70px;
+  }
+  &__container__list {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+}
+
+.navlinks {
+  text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+    color: $fushia;
+}

@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/logo/logo2.jpg";
 const Navbar = () => {
   return (
-    <nav class="navbar">
+    <header class="navbar">
       <div class="navbar__logo">
         <img src={logo} alt=""></img>
       </div>
-      <div className="navbar__container">
+      <nav className="navbar__container">
         <ul className="navbar__container__list">
           <li>
             <NavLink to="/" className={"navlinks"}>Accueil</NavLink>
@@ -21,8 +21,8 @@ const Navbar = () => {
             <NavLink to="/Contact" className={"navlinks"}>Contact</NavLink>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 

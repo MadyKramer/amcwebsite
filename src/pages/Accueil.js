@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import ServicesCards from "../components/ServicesCards";
 import logo from "../assets/logo/logo2.jpg";
 
 const Accueil = () => {
@@ -11,6 +12,7 @@ const Accueil = () => {
       </section>
       <section className="servicesSection">
         <h2 className="sectionTitle">Nos Services</h2>
+        <ServicesCards/>
       </section>
     </>
   );

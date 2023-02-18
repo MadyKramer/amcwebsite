@@ -1,9 +1,10 @@
 
-@import './Navbar';
-@import './Baneer';
-@import './Accueil.scss';
 @import './mixins';
 @import './_variables';
+@import './Navbar';
+@import './Baneer';
+@import './ServicesCards';
+@import './Accueil.scss';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
@@ -13,4 +14,8 @@
     box-sizing: border-box;
 }
 
-
+.sectionTitle {
+    font-family: "La Belle Aurore", cursive;
+    font-size: 30px;
+    padding:  10px 40px;
+}

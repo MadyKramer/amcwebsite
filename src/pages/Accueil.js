@@ -1,6 +1,6 @@
 import Banner from "../components/Banner";
 import ServicesCards from "../components/ServicesCards";
-import logo from "../assets/logo/logo2.jpg";
+import logo from "../assets/logo/logo3.png";
 
 const Accueil = () => {
   return (

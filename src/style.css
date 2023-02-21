@@ -119,6 +119,36 @@
     transform: translateX(0px) rotate(0deg);
   }
 }
+.overview {
+  border: 1px solid red;
+}
+.overview__content {
+  margin: 110px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.overview__content__txt {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  z-index: 50;
+  width: 30%;
+  border-radius: 15px;
+  padding: 40px;
+}
+.overview__content__img img {
+  border-radius: 15px;
+  width: 400px;
+  z-index: 51;
+}
+.overview__background {
+  width: 100vw;
+  position: absolute;
+  bottom: 270px;
+  z-index: 1;
+  background: linear-gradient(90deg, rgba(254, 151, 103, 0.5) 0%, rgb(254, 220, 220) 50%);
+  height: 200px;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -145,6 +175,10 @@
   font-family: "La Belle Aurore", cursive;
   font-size: 30px;
   padding: 10px 40px;
+}
+
+main {
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

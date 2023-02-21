@@ -1,0 +1,29 @@
+.overview {
+    border: 1px solid red;
+  &__content {
+    margin: 110px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__txt {
+      @include shadowBox;
+      z-index: 50;
+      width: 30%;
+      border-radius: 15px;
+      padding: 40px;
+    }
+    &__img img {
+      border-radius: 15px;
+      width: 400px;
+      z-index: 51;
+    }
+  }
+  &__background {
+    width: 100vw;
+    position: absolute;
+    bottom: 270px;
+    z-index: 1;
+    @include gradientBackground;
+    height: 200px;
+  }
+}

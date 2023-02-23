@@ -28,7 +28,10 @@
   position: relative;
 }
 .banner__img {
-  width: 100%;
+  background: url("assets/manonabench.jpg") no-repeat;
+  background-position: 50% 40%;
+  background-size: cover;
+  width: 100vw;
   height: 350px;
 }
 .banner__quote {
@@ -120,7 +123,7 @@
   }
 }
 .overview {
-  border: 1px solid red;
+  position: relative;
 }
 .overview__content {
   margin: 110px 0px;
@@ -130,6 +133,7 @@
 }
 .overview__content__txt {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  background-color: #fff;
   z-index: 50;
   width: 30%;
   border-radius: 15px;
@@ -143,8 +147,10 @@
 .overview__background {
   width: 100vw;
   position: absolute;
-  bottom: 270px;
-  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1000;
   background: linear-gradient(90deg, rgba(254, 151, 103, 0.5) 0%, rgb(254, 220, 220) 50%);
   height: 200px;
 }

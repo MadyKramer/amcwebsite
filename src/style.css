@@ -215,6 +215,39 @@
   height: 250px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FC5A5A;
+  margin-top: 100px;
+  padding: 10px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 14px;
+}
+.footer__links a {
+  text-decoration: none;
+  padding: 5px;
+}
+.footer__links a:any-link {
+  color: #fff;
+}
+
+.link1 a {
+  text-align: left;
+}
+
+.link2 a {
+  text-align: center;
+}
+
+.link3 a {
+  text-align: end;
+}
+
 .intro {
   display: flex;
   flex-direction: column;

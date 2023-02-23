@@ -135,7 +135,7 @@
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   background-color: #fff;
   z-index: 50;
-  width: 30%;
+  width: 40%;
   border-radius: 15px;
   padding: 40px;
 }
@@ -153,6 +153,38 @@
   z-index: -1000;
   background: linear-gradient(90deg, rgba(254, 151, 103, 0.5) 0%, rgb(254, 220, 220) 50%);
   height: 200px;
+}
+
+.recruitment {
+  position: relative;
+}
+.recruitment__container {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.recruitment__container__announcement {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  background-color: #fff;
+  z-index: 50;
+  width: 40%;
+  border-radius: 15px;
+  padding: 40px;
+}
+.recruitment__container__img {
+  width: 200px;
+  height: 200px;
+}
+.recruitment__background {
+  width: 100vw;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1000;
+  background: linear-gradient(90deg, rgba(254, 151, 103, 0.5) 0%, rgb(254, 220, 220) 50%);
+  height: 250px;
 }
 
 .intro {
@@ -180,7 +212,7 @@
 .sectionTitle {
   font-family: "La Belle Aurore", cursive;
   font-size: 30px;
-  padding: 10px 40px;
+  padding: 0px 40px;
 }
 
 main {

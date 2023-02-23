@@ -1,0 +1,31 @@
+.recruitment {
+    position: relative;
+  &__container {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__announcement {
+        @include shadowBox;
+        background-color: #fff;
+        z-index: 50;
+        width: 40%;
+        border-radius: 15px;
+        padding: 40px;
+    }
+    &__img{
+        width: 200px;
+        height: 200px;
+      }
+  }
+  &__background{
+    width: 100vw;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1000;
+    @include gradientBackground;
+    height: 250px;
+  }
+}

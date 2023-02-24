@@ -1,7 +1,7 @@
-import Intro from "../components/Intro";
-import ServicesHome from "../components/ServicesHome";
-import Overview from "../components/Overview";
-import Recruitment from "../components/Recruitment";
+import Intro from "../components/accueil/Intro";
+import ServicesHome from "../components/accueil/ServicesHome";
+import Overview from "../components/accueil/Overview";
+import Recruitment from "../components/accueil/Recruitment";
 import Footer from "../components/Footer";
 
 const Accueil = () => {

@@ -1,14 +1,14 @@
 
 @import './mixins';
-@import './_variables';
-@import './Navbar';
-@import './Baneer';
-@import './ServicesHome';
 @import './buttons';
-@import './Overview';
-@import './Recruitment';
+@import './variables';
+@import './Navbar';
+@import './accueil/Baneer';
+@import './accueil/ServicesHome';
+@import './accueil/Overview';
+@import './accueil/Recruitment';
 @import './Footer';
-@import './Accueil';
+@import './accueil/Intro';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 

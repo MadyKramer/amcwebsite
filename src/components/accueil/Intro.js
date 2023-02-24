@@ -1,5 +1,5 @@
-import logo from "../assets/logo/logo3.png";
-import Banner from "../components/Banner";
+import logo from "../../assets/logo/logo3.png";
+import Banner from "../accueil/Banner";
 
 const Intro = () => {
   return (

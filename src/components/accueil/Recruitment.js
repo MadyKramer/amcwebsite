@@ -1,4 +1,4 @@
-import enroll from "../assets/icons/enroll.png";
+import enroll from "../../assets/icons/enroll.png";
 
 const Recruitment = () => {
   return (

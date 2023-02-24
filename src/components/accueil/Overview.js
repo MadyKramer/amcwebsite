@@ -1,4 +1,4 @@
-import hands from "../assets/hands.jpg";
+import hands from "../../assets/hands.jpg"
 import { useNavigate } from "react-router-dom";
 
 const Overview = () => {

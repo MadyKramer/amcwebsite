@@ -1,4 +1,4 @@
-import { servicesDatas } from "../servicesDatas";
+import { servicesDatas } from "../../servicesDatas";
 import { useNavigate } from "react-router-dom";
 const ServicesHome = () => {
   const navigate = useNavigate();

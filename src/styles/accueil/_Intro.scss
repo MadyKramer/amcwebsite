@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative; //A modif si pb réglé vw
   padding: 30px;
   &__logo {
     width: 160px;

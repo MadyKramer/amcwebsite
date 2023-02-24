@@ -1,7 +1,11 @@
+import About from "../components/aPropos/About";
+
 const Apropos = () => {
-    return(
-        <h1>A propos</h1>
-    )
-}
+  return (
+    <main>
+      <About />
+    </main>
+  );
+};
 
 export default Apropos;

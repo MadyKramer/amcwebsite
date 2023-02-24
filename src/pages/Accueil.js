@@ -5,6 +5,7 @@ import Recruitment from "../components/accueil/Recruitment";
 import Footer from "../components/Footer";
 
 const Accueil = () => {
+
   return (
     <main>
       <Intro />

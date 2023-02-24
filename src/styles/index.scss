@@ -1,14 +1,23 @@
-
+//vendors
 @import './mixins';
 @import './buttons';
-@import './variables';
+@import './_variables';
+
 @import './Navbar';
+
+//Home Page
 @import './accueil/Baneer';
+@import './accueil/Intro';
 @import './accueil/ServicesHome';
 @import './accueil/Overview';
 @import './accueil/Recruitment';
+
+//A propos Page
+@import './aPropos/About';
+
 @import './Footer';
-@import './accueil/Intro';
+
+//Polices
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
@@ -27,4 +36,8 @@
 
 main{
     position: relative;
+}
+
+.separator{
+    color: $fushia;
 }

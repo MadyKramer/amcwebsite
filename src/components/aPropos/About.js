@@ -16,7 +16,7 @@ const About = () => {
             AMC a été créée le 1er septembre 2006 par Alain Guérin. Elle
             intervient sur le secteur de Toul et ses environs. L'association
             porte assistance aux personnes âgées ou toute autre personne ayant
-            besoin d'une aide personnelle à son domicile, à l'exception d'actes
+            besoin d'une aide personnelle à domicile, à l'exception d'actes
             médicaux. <br />
             <br /> Chez AMC, nous faisons de notre maximum pour que le
             bénéficiaire garde la même assistante de vie afin qu'il préserve son

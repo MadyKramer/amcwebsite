@@ -1,0 +1,67 @@
+.historical {
+  margin-top: 150px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+       
+        width: 50px;
+        height: 50px;
+        margin-right: 90px;
+    }
+  }
+  &__grid {
+    margin: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    &__2006 {
+      grid-area: 1 / 1 / 2 / 2;
+    }
+    &__2007 {
+      grid-area: 2 / 1 / 3 / 2;
+    }
+    &__2010 {
+      grid-area: 3 / 1 / 4 / 2;
+    }
+    &__2015 {
+      grid-area: 4 / 1 / 5 / 2;
+    }
+    &__2016 {
+      grid-area: 5 / 1 / 6 / 2;
+    }
+    &__separator1 {
+      grid-area: 1 / 2 / 2 / 3;
+    }
+    &__separator2 {
+      grid-area: 2 / 2 / 3 / 3;
+    }
+    &__separator3 {
+      grid-area: 3 / 2 / 4 / 3;
+    }
+    &__separator4 {
+      grid-area: 4 / 2 / 5 / 3;
+    }
+    &__separator5 {
+      grid-area: 5 / 2 / 6 / 3;
+    }
+    &__2006fact {
+      grid-area: 1 / 3 / 2 / 6;
+    }
+    &__2007fact {
+      grid-area: 2 / 3 / 3 / 6;
+    }
+    &__2010fact {
+      grid-area: 3 / 3 / 4 / 6;
+    }
+    &__2015fact {
+      grid-area: 4 / 3 / 5 / 6;
+    }
+    &__2016fact {
+      grid-area: 5 / 3 / 6 / 6;
+    }
+  }
+}

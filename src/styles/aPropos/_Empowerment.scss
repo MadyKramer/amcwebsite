@@ -1,0 +1,42 @@
+.empowerment {
+  margin-top: 80px;
+  position: relative;
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__left {
+      @include shadowBox;
+      background-color: #fff;
+      width: 20%;
+      padding: 20px;
+      border-radius: 15px;
+      & ul > li {
+        padding: 10px 0px;
+      }
+    }
+    &__right {
+      @include shadowBox;
+      background-color: #fff;
+      width: 30%;
+      height: 220px;
+      padding: 20px;
+      border-radius: 15px;
+      & ul > li {
+        padding: 5px 0px;
+      }
+      & > h3 {
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+  &__background {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    height: 160px;
+    @include gradientBackground;
+  }
+}

@@ -4,6 +4,7 @@
 @import './_variables';
 
 @import './Navbar';
+@import './Footer';
 
 //Home Page
 @import './accueil/Baneer';
@@ -17,7 +18,10 @@
 @import './aPropos/Historical';
 @import './aPropos/Empowerment';
 
-@import './Footer';
+//Contact Page
+@import './contact/Contact';
+
+
 
 //Polices
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');

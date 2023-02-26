@@ -66,6 +66,39 @@
   color: #e91e63;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FC5A5A;
+  margin-top: 70px;
+  padding: 10px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 14px;
+}
+.footer__links a {
+  text-decoration: none;
+  padding: 5px;
+}
+.footer__links a:any-link {
+  color: #fff;
+}
+
+.link1 a {
+  text-align: left;
+}
+
+.link2 a {
+  text-align: center;
+}
+
+.link3 a {
+  text-align: end;
+}
+
 .banner {
   position: relative;
 }
@@ -386,37 +419,53 @@
   z-index: -1000;
 }
 
-.footer {
+.contact__container {
   display: flex;
-  justify-content: space-between;
-  background-color: #FC5A5A;
-  margin-top: 100px;
-  padding: 10px;
+  justify-content: space-around;
+  margin: 40px;
+  font-size: 16px;
 }
-.footer__links {
+.contact__container__details {
   display: flex;
   flex-direction: column;
-  color: #fff;
-  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
 }
-.footer__links a {
-  text-decoration: none;
-  padding: 5px;
+.contact__container__details__phone {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
 }
-.footer__links a:any-link {
-  color: #fff;
+.contact__container__details__email {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+.contact__container__details__address {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.contact__container__details__address__mobility {
+  font-size: 12px;
+}
+.contact__container__map {
+  border: 20px solid #FEDCDC;
+  border-radius: 15px;
 }
 
-.link1 a {
-  text-align: left;
-}
-
-.link2 a {
-  text-align: center;
-}
-
-.link3 a {
-  text-align: end;
+.logoSize {
+  width: 50px;
+  height: 50px;
 }
 
 * {

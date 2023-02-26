@@ -239,7 +239,7 @@
 .about__img {
   position: absolute;
   left: 110px;
-  width: 390px;
+  width: 410px;
   height: 330px;
   border-radius: 10px;
   z-index: -800;
@@ -344,6 +344,7 @@
   position: relative;
 }
 .empowerment__content {
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;

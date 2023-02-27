@@ -1,49 +1,48 @@
 //vendors
-@import './mixins';
-@import './buttons';
-@import './_variables';
+@import "./mixins";
+@import "./buttons";
+@import "./_variables";
 
-@import './Navbar';
-@import './Footer';
+@import "./Navbar";
+@import "./Footer";
+@import "./accueil/ServicesHome";
 
 //Home Page
-@import './accueil/Baneer';
-@import './accueil/Intro';
-@import './accueil/ServicesHome';
-@import './accueil/Overview';
-@import './accueil/Recruitment';
+@import "./accueil/Baneer";
+@import "./accueil/Intro";
+@import "./accueil/Overview";
+@import "./accueil/Recruitment";
 
 //A propos Page
-@import './aPropos/About';
-@import './aPropos/Historical';
-@import './aPropos/Empowerment';
+@import "./aPropos/About";
+@import "./aPropos/Historical";
+@import "./aPropos/Empowerment";
 
 //Contact Page
-@import './contact/Contact';
+@import "./contact/Contact";
 
-
+//Services Page
+@import "./services/Description";
 
 //Polices
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
 
-
-*{
-    font-family: "Montserrat";
-    box-sizing: border-box;
-
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
 }
 
 .sectionTitle {
-    font-family: "La Belle Aurore", cursive;
-    font-size: 30px;
-    padding:  0px 40px;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 30px;
+  padding: 0px 40px;
 }
 
-main{
-    position: relative;
+main {
+  position: relative;
 }
 
-.separator{
-    color: $fushia;
+.separator {
+  color: $fushia;
 }

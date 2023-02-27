@@ -1,7 +1,14 @@
+import ServicesHome from "../components/ServicesHome"
+import Description from "../components/services/Description";
+
 const Services = () => {
-    return(
-        <h1>Services</h1>
-    )
-}
+  return (
+    <main>
+      <Description />
+      <ServicesHome />
+
+    </main>
+  );
+};
 
 export default Services;

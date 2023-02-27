@@ -1,10 +1,7 @@
-import { servicesDatas } from "../../servicesDatas";
-import { useNavigate } from "react-router-dom";
+import { servicesDatas } from "../servicesDatas";
+
 const ServicesHome = () => {
-  const navigate = useNavigate();
-  const handleServices = () => {
-    navigate("/Services");
-  };
+  
   return (
     <section>
       <h2 className="sectionTitle">Nos Services</h2>
@@ -19,11 +16,7 @@ const ServicesHome = () => {
             </div>
           </div>
         ))}
-        <div className="btnContainer">
-          <button onClick={handleServices} className="btn">
-            En savoir plus
-          </button>
-        </div>
+        
       </div>
     </section>
   );

@@ -1,0 +1,63 @@
+.support {
+  margin: 130px;
+  position: relative;
+
+  &__picture {
+    display: flex;
+    justify-content: flex-end;
+
+    & img {
+      width: 46%;
+      border-radius: 10px;
+      position: absolute;
+      z-index: -1000;
+    }
+  }
+
+  &__card {
+    position: relative;
+    top: 50px;
+    @include shadowBox;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 5px solid $chamalow;
+    z-index: 200;
+    width: 60%;
+    padding: 10px;
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & h3 {
+        font-family: "La Belle Aurore";
+        font-size: 24px;
+      }
+    }
+
+    &__content {
+      padding: 20px;
+      &__situation {
+        font-weight: bold;
+      }
+      &__organism {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 18px;
+        & p {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+}
+
+.support__separator {
+  position: relative;
+  bottom: 28px;
+}

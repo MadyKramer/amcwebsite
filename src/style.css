@@ -500,6 +500,66 @@
   left: 50%;
 }
 
+.support {
+  margin: 130px;
+  position: relative;
+}
+.support__picture {
+  display: flex;
+  justify-content: flex-end;
+}
+.support__picture img {
+  width: 46%;
+  border-radius: 10px;
+  position: absolute;
+  z-index: -1000;
+}
+.support__card {
+  position: relative;
+  top: 50px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  background-color: #fff;
+  border-radius: 15px;
+  border: 5px solid #FEDCDC;
+  z-index: 200;
+  width: 60%;
+  padding: 10px;
+}
+.support__card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support__card__header h3 {
+  font-family: "La Belle Aurore";
+  font-size: 24px;
+}
+.support__card__content {
+  padding: 20px;
+}
+.support__card__content__situation {
+  font-weight: bold;
+}
+.support__card__content__organism {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 18px;
+}
+.support__card__content__organism p {
+  padding-left: 10px;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+}
+
+.support__separator {
+  position: relative;
+  bottom: 28px;
+}
+
 * {
   font-family: "Montserrat";
   box-sizing: border-box;

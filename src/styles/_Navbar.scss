@@ -17,12 +17,11 @@
 
 .navlinks {
   text-decoration: none;
-  // &:visited{
-  //   color: black;
-  // }
+
+  color: black;
 }
 
-.active{
-    font-weight: bold;
-    color: $fushia;
+.active {
+  font-weight: bold;
+  color: $fushia;
 }

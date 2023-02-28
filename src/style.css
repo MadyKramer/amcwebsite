@@ -485,7 +485,7 @@
 .description__container__card {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   background-color: #fff;
-  width: 40%;
+  width: 50%;
   padding: 16px;
   border-radius: 15px;
 }
@@ -520,7 +520,7 @@
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   background-color: #fff;
   border-radius: 15px;
-  border: 5px solid #FEDCDC;
+  border: 3px solid #FEDCDC;
   z-index: 200;
   width: 60%;
   padding: 10px;

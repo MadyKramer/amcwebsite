@@ -10,7 +10,7 @@ export const servicesDatas = [
   {
     name: "Compagnie",
     img: helper,
-    id: 1
+    id: 1,
   },
   {
     name: "Entretien du logement",

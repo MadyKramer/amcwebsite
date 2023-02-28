@@ -11,30 +11,36 @@ export const servicesDatas = [
     name: "Compagnie",
     img: helper,
     id: 1,
+    description:["Jeux de société", "Lecture", "Promenades", "Resocialisation", "Visite familles", "..."]
   },
   {
     name: "Entretien du logement",
     img: housework,
-    id: 2
+    id: 2,
+    description:["Sol", "Vaisselle", "Entretien du linge", "Poussière", "..."]
   },
   {
     name: "Repas à domicile",
     img: eating,
-    id: 3
+    id: 3,
+    description:["Préparation du repas", "Aide alimentaire", "Service"]
   },
   {
     name: "Courses",
     img: shopping,
-    id: 4
+    id: 4,
+    description: ["Avec le bénéficiare", "Sans le bénéficiaire"]
   },
   {
     name: "Accompagnement des familles fragilisées",
     img: family,
-    id: 5
+    id: 5,
+    description:["Soutien moral", "Aide administrative"]
   },
   {
     name: "Assistance administrative",
     img: documents,
-    id: 6
+    id: 6,
+    description:["Aide au bénéficiaire", "Aide à la famille du bénéficiaire"]
   }
 ];

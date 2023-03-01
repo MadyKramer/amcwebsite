@@ -9,13 +9,15 @@
     transition: transform 900ms ease;
     transform-style: preserve-3d;
     margin: 10px;
+  
     width: 230px;
     height: 230px;
     &:hover {
-      transform: rotateY(180deg);
+      transform: rotateX(180deg);
     }
     &__front {
       backface-visibility: hidden;
+    
       position: absolute;
       top: 0;
       left: 0;
@@ -41,20 +43,28 @@
         display: flex;
         justify-content: center;
         & img {
+          padding-top: 20px;
           width: 130px;
         }
       }
-      &__name {
+      &__name{
         display: flex;
         justify-content: center;
         color: #fff;
         text-align: center;
         font-size: 14px;
+        padding: 8px;
+       
+        & h3{
+          font-weight: 700;
+          text-shadow: none;
+        }
+     
       }
     }
     &__back {
       backface-visibility: hidden;
-      transform: rotateY(180deg);
+      transform: rotateX(180deg);
       display: flex;
       flex-direction: column;
       width: 230px;

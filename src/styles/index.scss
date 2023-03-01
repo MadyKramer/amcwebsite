@@ -32,7 +32,16 @@
 * {
   font-family: "Montserrat";
   box-sizing: border-box;
+  box-shadow: none;
+  
+
 }
+
+html{
+  //Barre de défilment sur X cachée
+  overflow-x:hidden; 
+}
+
 
 .sectionTitle {
   font-family: "La Belle Aurore", cursive;
@@ -47,3 +56,4 @@ main {
 .separator {
   color: $fushia;
 }
+

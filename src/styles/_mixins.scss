@@ -3,7 +3,10 @@
 }
 @mixin gradientBackground{
     background: linear-gradient(90deg, rgba(254,151,103,0.5) 0%, rgba(254,220,220,1) 50%);
-    width: 99vw; //Provisoire
+    width: 100vw;
+    
+    // max-width: 100%; //Beug 100vw chrome
     position: absolute;
     z-index: -1000;
+    
 }

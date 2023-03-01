@@ -1,6 +1,7 @@
 import duobench from "../../assets/duobench.jpg";
 
 const About = () => {
+  
   return (
     <section className="about">
       <img
@@ -8,9 +9,9 @@ const About = () => {
         src={duobench}
         alt="deux personnes riant sur un banc"
       ></img>
-      <div className="about__section">
-        <div className="about__section__card">
-          <h2 className="sectionTitle">Qui sommes nous ?</h2>
+      <div className="about__section" id="about-section" > 
+        <div className="about__section__card" >
+          <h2 className="sectionTitle" >Qui sommes nous ? </h2>
           <p className="separator">X</p>
           <p className="about__section__card__txt">
             AMC a été créée le 1er septembre 2006 par Alain Guérin. Elle

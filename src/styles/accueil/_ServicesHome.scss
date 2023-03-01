@@ -4,8 +4,9 @@
   perspective: 1000px;
 
   &__card {
+    @include shadowBox;
     position: relative;
-    transition: transform 0.7s ease;
+    transition: transform 900ms ease;
     transform-style: preserve-3d;
     margin: 10px;
     width: 230px;
@@ -14,7 +15,6 @@
       transform: rotateY(180deg);
     }
     &__front {
-      @include shadowBox;
       backface-visibility: hidden;
       position: absolute;
       top: 0;
@@ -36,7 +36,7 @@
       -ms-transform-style: preserve-3d;
       -o-transform-style: preserve-3d;
       transform-style: preserve-3d;
-      transition-duration: 350ms;
+
       &__icon {
         display: flex;
         justify-content: center;
@@ -68,11 +68,9 @@
       );
       color: #fff;
       font-weight: 600;
-     
+
       & ul > li {
-        list-style-type: none;
         padding: 6px 0px;
-        
       }
     }
   }

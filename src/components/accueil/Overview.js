@@ -1,11 +1,8 @@
 import hands from "../../assets/hands.jpg"
-import { useNavigate } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const Overview = () => {
-  const navigate = useNavigate();
-  const handleServices = () => {
-    navigate("/Apropos");
-  };
   return (
     <section className="overview">
       <div className="overview__content">
@@ -24,9 +21,9 @@ const Overview = () => {
             vie est qualifié·e· et veillera avec attention sur vos proches.
           </p>
           <div className="btnContainer">
-            <button onClick={handleServices} className="btn">
+            <Link to="/Apropos#about-section" className="btn">
               En savoir plus
-            </button>
+            </Link>
           </div>
         </div>
         <div className="overview__content__img">

@@ -8,6 +8,7 @@
 
 .btn {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  text-decoration: none;
   color: #fff;
   background-color: #e91e63;
   border: none;
@@ -106,8 +107,9 @@
   perspective: 1000px;
 }
 .servicesHome__card {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   position: relative;
-  transition: transform 0.7s ease;
+  transition: transform 900ms ease;
   transform-style: preserve-3d;
   margin: 10px;
   width: 230px;
@@ -117,7 +119,6 @@
   transform: rotateY(180deg);
 }
 .servicesHome__card__front {
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -135,7 +136,6 @@
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  transition-duration: 350ms;
 }
 .servicesHome__card__front__icon {
   display: flex;
@@ -165,7 +165,6 @@
   font-weight: 600;
 }
 .servicesHome__card__back ul > li {
-  list-style-type: none;
   padding: 6px 0px;
 }
 

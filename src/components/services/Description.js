@@ -2,8 +2,8 @@ import help from "../../assets/icons/help.png";
 
 const Description = () => {
   return (
-    <section className="description">
-      <div className="description__container">
+    <section className="description" id="description">
+      <div className="description__container" >
         <div className="description__container__card">
           <p>
             AMC vient en aide aux personnes handicapées (Parkinson, Alzheimer…),

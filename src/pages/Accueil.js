@@ -2,21 +2,18 @@ import Intro from "../components/accueil/Intro";
 import ServicesHome from "../components/ServicesHome";
 import Overview from "../components/accueil/Overview";
 import Recruitment from "../components/accueil/Recruitment";
-import { useNavigate } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Accueil = () => {
-  const navigate = useNavigate();
-  const handleServices = () => {
-    navigate("/Services");
-  };
+
   return (
     <main>
       <Intro />
       <ServicesHome />
       <div className="btnContainer">
-        <button onClick={handleServices} className="btn">
+        <Link className="btn" to="/Services#description">
           En savoir plus
-        </button>
+        </Link>
       </div>
       <Overview />
       <Recruitment />

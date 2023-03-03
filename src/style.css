@@ -68,7 +68,7 @@
   height: 70px;
 }
 .navbar__logo img {
-  width: 70px;
+  width: 80px;
   padding-left: 10px;
 }
 .navbar__container__list {
@@ -618,7 +618,7 @@
   height: 10px;
 }
 
-.support__separator {
+.separator {
   position: relative;
   bottom: 28px;
 }
@@ -648,6 +648,8 @@ main {
 
 .separator {
   color: #e91e63;
+  position: relative;
+  bottom: 28px;
 }
 
 /*# sourceMappingURL=style.css.map */

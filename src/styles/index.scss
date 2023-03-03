@@ -33,11 +33,17 @@
   font-family: "Montserrat";
   box-sizing: border-box;
   box-shadow: none;
+
 }
 
-html{
+body{
   //Barre de défilment sur X cachée
   overflow-x:hidden; 
+  //Retire marge du footer
+  margin-bottom: 0;
+  margin-left:0;
+  margin-right:0;
+   
 }
 
 

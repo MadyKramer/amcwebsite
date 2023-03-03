@@ -1,6 +1,7 @@
 import About from "../components/aPropos/About";
 import Historical from "../components/aPropos/Historical";
 import Empowerment from "../components/aPropos/Empowerment";
+import ScrollToTop from "../components/ScrollToTop";
 
 
 const Apropos = () => {
@@ -10,6 +11,7 @@ const Apropos = () => {
       <About />
       <Historical />
       <Empowerment />
+      <ScrollToTop />
     </main>
   );
 };

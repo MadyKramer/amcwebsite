@@ -2,6 +2,7 @@ import Intro from "../components/accueil/Intro";
 import ServicesHome from "../components/ServicesHome";
 import Overview from "../components/accueil/Overview";
 import Recruitment from "../components/accueil/Recruitment";
+import ScrollToTop from "../components/ScrollToTop";
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Accueil = () => {
@@ -17,6 +18,7 @@ const Accueil = () => {
       </div>
       <Overview />
       <Recruitment />
+      <ScrollToTop />
     </main>
   );
 };

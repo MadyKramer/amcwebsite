@@ -19,7 +19,9 @@ const ContactComponent = () => {
           <div className="contact__container__details__address">
             <img src={mappointer} alt="adresse" className="logoSize"></img>
             <p>701 rue Guy Pernin 54200 Toul</p>
-            <p className="contact__container__details__address__mobility">(accessible aux personnes à mobilité réduite)</p>
+            <p className="contact__container__details__address__mobility">
+              (accessible aux personnes à mobilité réduite)
+            </p>
           </div>
         </div>
         <div className="contact__container__map">

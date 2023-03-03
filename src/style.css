@@ -51,6 +51,7 @@
 }
 .navbar__logo img {
   width: 70px;
+  padding-left: 10px;
 }
 .navbar__container__list {
   width: 500px;
@@ -75,7 +76,7 @@
   justify-content: space-between;
   background-color: #FC5A5A;
   margin-bottom: 0;
-  margin-top: 70px;
+  margin-top: 80px;
   padding: 10px;
 }
 .footer__links {
@@ -494,6 +495,8 @@
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
   align-items: center;
   width: 100%;
   padding: 10px;

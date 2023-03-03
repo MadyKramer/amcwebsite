@@ -24,23 +24,24 @@
         align-items: center;
         width: 100%;
         padding: 10px 0px;
-   
       }
       &__address {
         @include shadowBox;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
         align-items: center;
         width: 100%;
         padding: 10px;
-        &__mobility{
-            font-size: 12px;
+        &__mobility {
+          font-size: 12px;
         }
       }
     }
     &__map {
-        border: 20px solid $chamalow;
-        border-radius: 15px;
+      border: 20px solid $chamalow;
+      border-radius: 15px;
     }
   }
 }

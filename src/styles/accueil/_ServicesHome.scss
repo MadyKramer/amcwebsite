@@ -1,23 +1,31 @@
 .servicesHome {
   display: flex;
-  justify-content: space-between;
   perspective: 1000px;
 
+  @include desktopAndLess {
+    flex-wrap: wrap;
+    justify-content: center;
+    // gap: 15%; Juste changer les tailles des cards
+  }
   &__card {
     @include shadowBox;
     position: relative;
     transition: transform 900ms ease;
     transform-style: preserve-3d;
     margin: 10px;
-  
     width: 230px;
     height: 230px;
     &:hover {
       transform: rotateX(180deg);
     }
+    @include desktopAndLess {
+      width: 400px;
+    }
+    @include smartphone {
+      width: 370px;
+    }
     &__front {
       backface-visibility: hidden;
-    
       position: absolute;
       top: 0;
       left: 0;
@@ -38,7 +46,12 @@
       -ms-transform-style: preserve-3d;
       -o-transform-style: preserve-3d;
       transform-style: preserve-3d;
-
+      @include desktopAndLess {
+        width: 400px;
+      }
+      @include smartphone {
+        width: 370px;
+      }
       &__icon {
         display: flex;
         justify-content: center;
@@ -47,19 +60,18 @@
           width: 130px;
         }
       }
-      &__name{
+      &__name {
         display: flex;
         justify-content: center;
         color: #fff;
         text-align: center;
         font-size: 14px;
         padding: 8px;
-       
-        & h3{
+
+        & h3 {
           font-weight: 700;
           text-shadow: none;
         }
-     
       }
     }
     &__back {
@@ -81,6 +93,14 @@
 
       & ul > li {
         padding: 6px 0px;
+        @include smartphone {text-align:center; list-style-type: none;}
+      }
+      @include desktopAndLess {
+        width: 400px;
+      }
+      @include smartphone {
+        width: 370px;
+       
       }
     }
   }

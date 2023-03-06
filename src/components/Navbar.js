@@ -12,8 +12,6 @@ const Navbar = () => {
     console.log(isMenuOpen)
   };
 
-
-
   return (
     <header className="navbar">
       <div className="navbar__logo">

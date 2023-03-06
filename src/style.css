@@ -208,8 +208,13 @@
 
 .servicesHome {
   display: flex;
-  justify-content: space-between;
   perspective: 1000px;
+}
+@media (max-width: 1505px) {
+  .servicesHome {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .servicesHome__card {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
@@ -222,6 +227,16 @@
 }
 .servicesHome__card:hover {
   transform: rotateX(180deg);
+}
+@media (max-width: 1505px) {
+  .servicesHome__card {
+    width: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .servicesHome__card {
+    width: 370px;
+  }
 }
 .servicesHome__card__front {
   backface-visibility: hidden;
@@ -241,6 +256,16 @@
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+@media (max-width: 1505px) {
+  .servicesHome__card__front {
+    width: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .servicesHome__card__front {
+    width: 370px;
+  }
 }
 .servicesHome__card__front__icon {
   display: flex;
@@ -277,6 +302,22 @@
 }
 .servicesHome__card__back ul > li {
   padding: 6px 0px;
+}
+@media (max-width: 767px) {
+  .servicesHome__card__back ul > li {
+    text-align: center;
+    list-style-type: none;
+  }
+}
+@media (max-width: 1505px) {
+  .servicesHome__card__back {
+    width: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .servicesHome__card__back {
+    width: 370px;
+  }
 }
 
 .banner {

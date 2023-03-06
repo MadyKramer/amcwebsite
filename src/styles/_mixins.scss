@@ -16,7 +16,9 @@
 @mixin wideScreen{
     @media (min-width:1439px) {@content;}
 }
-
+@mixin desktopAndLess{
+    @media (max-width: 1505px){@content;}
+}
 @mixin tab{
     @media (min-width: 767px) and (max-width:1023px) {@content;}
 }

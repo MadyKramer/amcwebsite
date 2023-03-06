@@ -289,6 +289,11 @@
   background-size: cover;
   height: 350px;
 }
+@media (max-width: 767px) {
+  .banner__img {
+    height: 200px;
+  }
+}
 .banner__quote {
   font-family: "La Belle Aurore", cursive;
   font-size: 30px;
@@ -298,6 +303,11 @@
   bottom: -7%;
   width: 100%;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .banner__quote {
+    font-size: 16px;
+  }
 }
 
 .intro {

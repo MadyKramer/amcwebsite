@@ -5,9 +5,11 @@
     background: url("assets/manonabench.jpg") no-repeat;
     background-position: 50% 40%;
     background-size: cover;
-    
-    // width: 100vw;
     height: 350px;
+    @include smartphone{
+      height:200px;
+    }
+   
   }
   &__quote {
     font-family: "La Belle Aurore", cursive;
@@ -18,5 +20,8 @@
     bottom: -7%;
     width: 100%;
     text-align: center;
+    @include smartphone{
+      font-size: 16px;
+    }
   }
 }

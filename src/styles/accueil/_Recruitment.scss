@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    @include tabAndLess{
+      flex-direction: column;
+    }
     &__announcement {
         @include shadowBox;
         display: flex;
@@ -15,6 +18,10 @@
         width: 40%;
         border-radius: 15px;
         padding: 40px;
+        @include tabAndLess{
+          width: 90%;
+          margin-top: 20px;
+        }
         &__address{
             padding: 10px;
             border-radius: 5px;
@@ -47,11 +54,16 @@
       }
   }
   &__background{
-    
     top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
     @include gradientBackground;
     height: 250px;
+    @include tab{
+      top: 70%;
+    }
+    @include smartphone{
+      top: 72%;
+    }
   }
 }

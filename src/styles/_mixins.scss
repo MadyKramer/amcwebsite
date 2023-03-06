@@ -9,17 +9,21 @@
     
 }
 
+
+
 //Breakpoints 
 
 @mixin wideScreen{
     @media (min-width:1439px) {@content;}
 }
+
 @mixin tab{
     @media (min-width: 767px) and (max-width:1023px) {@content;}
 }
 @mixin tabAndLess{
     @media (max-width: 1023px) {@content;}
 }
+
 @mixin smartphone{
     @media (max-width:767px) {@content;}
 }

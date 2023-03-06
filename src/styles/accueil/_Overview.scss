@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    @include tabAndLess{
+      flex-direction: column-reverse;
+    }
     &__txt {
       @include shadowBox;
       background-color: #fff;
@@ -12,19 +15,38 @@
       width: 40%;
       border-radius: 15px;
       padding: 40px;
+      @include tabAndLess{
+        margin-top: 20px;
+        width: 80%;
+      }
     }
-    &__img img {
+    &__img {
+      @include tabAndLess{
+        width: 100%;
+      }
+      & img {
       border-radius: 15px;
       width: 400px;
       z-index: 51;
+      @include tabAndLess{
+        width: 100%;
+        border-radius: 0%;
+      }
+      }
     }
   }
   &__background {
-    
+    // position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     @include gradientBackground;
     height: 200px;
+    @include tabAndLess{
+      top: 80%;
+    }
+    @include smartphone{
+      top: 72%;
+    }
   }
 }

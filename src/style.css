@@ -378,6 +378,11 @@
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 1023px) {
+  .overview__content {
+    flex-direction: column-reverse;
+  }
+}
 .overview__content__txt {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   background-color: #fff;
@@ -386,10 +391,27 @@
   border-radius: 15px;
   padding: 40px;
 }
+@media (max-width: 1023px) {
+  .overview__content__txt {
+    margin-top: 20px;
+    width: 80%;
+  }
+}
+@media (max-width: 1023px) {
+  .overview__content__img {
+    width: 100%;
+  }
+}
 .overview__content__img img {
   border-radius: 15px;
   width: 400px;
   z-index: 51;
+}
+@media (max-width: 1023px) {
+  .overview__content__img img {
+    width: 100%;
+    border-radius: 0%;
+  }
 }
 .overview__background {
   top: 50%;
@@ -400,6 +422,16 @@
   position: absolute;
   z-index: -1000;
   height: 200px;
+}
+@media (max-width: 1023px) {
+  .overview__background {
+    top: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .overview__background {
+    top: 72%;
+  }
 }
 
 .recruitment {

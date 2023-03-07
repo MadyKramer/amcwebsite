@@ -51,6 +51,9 @@ body{
   font-family: "La Belle Aurore", cursive;
   font-size: 30px;
   padding: 0px 40px;
+  @include smartphone{
+    font-size: 20px;
+  }
 }
 
 main {
@@ -61,5 +64,8 @@ main {
   color: $fushia;
   position: relative;
   bottom: 28px;
+  @include smartphone{
+    font-size: 14px;
+  }
 }
 

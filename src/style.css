@@ -524,6 +524,11 @@
   margin-top: 50px;
   position: relative;
 }
+@media (max-width: 767px) {
+  .about {
+    margin-top: 10px;
+  }
+}
 .about__img {
   position: absolute;
   left: 110px;
@@ -531,6 +536,14 @@
   height: 330px;
   border-radius: 10px;
   z-index: -800;
+}
+@media (max-width: 767px) {
+  .about__img {
+    position: relative;
+    border-radius: 0%;
+    left: 0%;
+    width: 100%;
+  }
 }
 .about__section {
   display: flex;
@@ -550,6 +563,16 @@
   padding: 40px;
   border-radius: 15px;
 }
+@media (max-width: 767px) {
+  .about__section__card {
+    position: absolute;
+    top: 210px;
+    left: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+}
 .about__background {
   background: linear-gradient(90deg, rgba(254, 151, 103, 0.5) 0%, rgb(254, 220, 220) 50%);
   width: 100vw;
@@ -558,6 +581,12 @@
   height: 400px;
   top: 50px;
   z-index: -1000;
+}
+@media (max-width: 767px) {
+  .about__background {
+    top: 400px;
+    height: 200px;
+  }
 }
 
 .historical {
@@ -862,6 +891,11 @@ body {
   font-size: 30px;
   padding: 0px 40px;
 }
+@media (max-width: 767px) {
+  .sectionTitle {
+    font-size: 20px;
+  }
+}
 
 main {
   position: relative;
@@ -871,6 +905,11 @@ main {
   color: #e91e63;
   position: relative;
   bottom: 28px;
+}
+@media (max-width: 767px) {
+  .separator {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

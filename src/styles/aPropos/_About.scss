@@ -1,6 +1,9 @@
 .about {
   margin-top: 50px;
   position: relative;
+@include smartphone{
+  margin-top: 10px;
+}
   &__img {
     position: absolute;
     left: 110px;
@@ -8,6 +11,12 @@
     height: 330px;
     border-radius: 10px;
     z-index: -800;
+    @include smartphone{
+      position:relative;
+      border-radius:0%;
+      left: 0%;
+      width: 100%;
+    }
   }
   &__section {
     display: flex;
@@ -25,6 +34,14 @@
       width: 50%;
       padding: 40px;
       border-radius: 15px;
+      @include smartphone{
+        position: absolute;
+        top: 210px;
+        left : auto;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
       
     }
   }
@@ -33,5 +50,9 @@
     height: 400px;
     top:50px;
     z-index: -1000;
+    @include smartphone{
+      top: 400px;
+      height: 200px;
+    }
   }
 }

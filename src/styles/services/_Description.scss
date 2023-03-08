@@ -1,15 +1,25 @@
 .description {
   margin: 100px 0px;
   position: relative;
+  @include smartphone {
+    margin: 50px 0px;
+  }
   &__container {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    @include smartphone {
+      flex-direction: column-reverse;
+    }
 
     & img {
       width: 90px;
       height: 90px;
+
+      @include smartphone {
+        margin-bottom: 60px;
+      }
     }
     &__card {
       @include shadowBox;
@@ -17,6 +27,9 @@
       width: 50%;
       padding: 16px;
       border-radius: 15px;
+      @include smartphone {
+        width: 80%;
+      }
     }
   }
   &__background {
@@ -25,5 +38,8 @@
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    @include smartphone {
+      top: 10%;
+    }
   }
 }

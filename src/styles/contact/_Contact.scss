@@ -1,39 +1,62 @@
 .contact {
+ 
   &__container {
     display: flex;
     justify-content: space-around;
     margin: 40px;
     font-size: 16px;
+    @include tabAndLess{
+      flex-direction: column;
+      margin:auto;
+    }
     &__details {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
+      @include tabAndLess{
+        margin: 20px;
+      }
+      
+      
       &__phone {
         @include shadowBox;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding: 10px 0px;
+        padding: 10px 25px;
+        
+        @include tabAndLess{
+        margin-top: 20px;
+        width: 350px;
+        }
       }
       &__email {
         @include shadowBox;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         width: 100%;
-        padding: 10px 0px;
+        padding: 10px 25px;
+        @include tabAndLess{
+          margin-top: 20px;
+          width: 350px;
+          }
       }
       &__address {
         @include shadowBox;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         text-align: center;
         align-items: center;
         width: 100%;
         padding: 10px;
+        @include tabAndLess{
+          margin: 20px 0px;
+          width: 350px;
+          }
         &__mobility {
           font-size: 12px;
         }
@@ -42,6 +65,15 @@
     &__map {
       border: 20px solid $chamalow;
       border-radius: 15px;
+      @include tabAndLess{
+        display: flex;
+        justify-content: center;
+        border: none;
+        border-radius:0%;
+       
+      }
+      
+
     }
   }
 }

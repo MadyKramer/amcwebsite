@@ -79,8 +79,7 @@
       transform: rotateX(180deg);
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      
       width: 230px;
       height: 230px;
       padding: 1% 1% 0% 1%;
@@ -92,11 +91,13 @@
       );
       color: #fff;
       font-weight: 600;
+      @include smartphone {
+        align-items: center;
+      }
 
       & ul {
         @include smartphone {
-          
-          padding:0;
+          padding: 0;
         }
         & > li {
           padding: 6px 0px;

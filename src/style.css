@@ -879,7 +879,7 @@
 }
 @media (max-width: 767px) {
   .support {
-    margin: 50px 0px 370px 0px;
+    margin: 50px 0px 300px 0px;
   }
 }
 .support__picture {
@@ -915,7 +915,7 @@
 }
 @media (max-width: 767px) {
   .support__card {
-    top: 290px;
+    top: 220px;
     width: 80%;
     margin: auto;
   }
@@ -927,13 +927,23 @@
 }
 .support__card__header h3 {
   font-family: "La Belle Aurore";
-  font-size: 24px;
+  font-size: 28px;
+}
+@media (max-width: 767px) {
+  .support__card__header h3 {
+    font-size: 18px;
+  }
 }
 .support__card__content {
   padding: 20px;
 }
 .support__card__content__situation {
   font-weight: bold;
+}
+@media (max-width: 767px) {
+  .support__card__content__situation {
+    font-size: 16px;
+  }
 }
 .support__card__content__organism {
   display: flex;
@@ -943,6 +953,11 @@
 }
 .support__card__content__organism p {
   padding-left: 10px;
+}
+@media (max-width: 767px) {
+  .support__card__content__organism p {
+    font-size: 14px;
+  }
 }
 
 .arrow {

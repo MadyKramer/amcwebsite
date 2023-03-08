@@ -292,6 +292,8 @@
   transform: rotateX(180deg);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 230px;
   height: 230px;
   padding: 1% 1% 0% 1%;
@@ -299,6 +301,11 @@
   background: linear-gradient(0deg, rgb(252, 90, 90) 0%, rgb(254, 151, 103) 100%);
   color: #fff;
   font-weight: 600;
+}
+@media (max-width: 767px) {
+  .servicesHome__card__back ul {
+    padding: 0;
+  }
 }
 .servicesHome__card__back ul > li {
   padding: 6px 0px;

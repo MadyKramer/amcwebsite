@@ -592,6 +592,11 @@
 .historical {
   margin-top: 150px;
 }
+@media (max-width: 767px) {
+  .historical {
+    margin-top: 400px;
+  }
+}
 .historical__header {
   display: flex;
   justify-content: space-between;
@@ -606,9 +611,15 @@
   margin: 30px 50px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 80px;
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+}
+@media (max-width: 767px) {
+  .historical__grid {
+    margin: 30px;
+  }
 }
 .historical__grid__2006 {
   grid-area: 1/1/2/2;

@@ -66,6 +66,7 @@
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  margin-bottom: 0;
 }
 .navbar__logo img {
   width: 80px;
@@ -628,7 +629,6 @@
   margin: 30px 50px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-columns: 40px;
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -636,6 +636,7 @@
 @media (max-width: 767px) {
   .historical__grid {
     margin: 30px;
+    grid-template-columns: 40px;
   }
 }
 .historical__grid__2006 {
@@ -892,6 +893,7 @@
 @media (max-width: 767px) {
   .description__container__card {
     width: 80%;
+    margin-bottom: 50px;
   }
 }
 .description__background {

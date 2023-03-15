@@ -12,8 +12,8 @@ const Intro = () => {
           className="intro__logo"
         ></img>
         <p className="intro__quote">
-          AMC oeuvre au quotidien au bien-être des personnes âgées et/ou
-          handicapées, afin de faire en sorte que chaque individu puisse
+          AMC oeuvre au quotidien au <strong>bien-être des personnes âgées et/ou
+          handicapées</strong>, afin de faire en sorte que chaque individu puisse
           continuer d'écrire son histoire dans la sérénité.
         </p>
       </section>

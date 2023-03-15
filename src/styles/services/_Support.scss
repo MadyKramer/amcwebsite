@@ -44,7 +44,8 @@
         font-family: "La Belle Aurore";
         font-size: 28px;
         @include smartphone {
-          font-size: 18px;
+          font-size: 22px;
+          text-align: center;
         }
       }
     }

@@ -9,7 +9,7 @@ const Support = () => {
       </div>
       <div className="support__card">
         <div className="support__card__header">
-          <h3>Les prises en charge principales:</h3>
+          <h3>Les prises en charge principales :</h3>
           <p className="separator">x</p>
         </div>
         <div className="support__card__content">

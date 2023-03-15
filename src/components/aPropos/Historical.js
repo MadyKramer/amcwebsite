@@ -23,14 +23,14 @@ const Historical = () => {
         <div className="historical__grid__separator4">·</div>
         <div className="historical__grid__separator5">·</div>
         <div className="historical__grid__2006fact">
-          AMC s’inscrit dans le plan de développement des services d’aide à la
-          personne.
+          AMC s’inscrit dans le plan de développement des services <strong>d’aide à la
+          personne.</strong>
         </div>
         <div className="historical__grid__2007fact">
           AMC est agréée simple pour la fourniture de services à la personne.{" "}
         </div>
         <div className="historical__grid__2010fact">
-          AMC est agréée Qualité pour la fourniture de services à la personne.
+          AMC est agréée Qualité pour la fourniture de <strong>services à la personne</strong>.
         </div>
         <div className="historical__grid__2015fact">
           L’agrément AMC est renouvelé pour 5 ans après un audit externe.

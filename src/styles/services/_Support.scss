@@ -1,6 +1,9 @@
 .support {
   margin: 130px;
   position: relative;
+  @include wideScreen{
+    margin-bottom: 12%;
+  }
   @include smartphone {
     margin: 50px 0px 300px 0px;
   }

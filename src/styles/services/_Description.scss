@@ -29,6 +29,9 @@
       width: 50%;
       padding: 16px;
       border-radius: 15px;
+      @include wideScreen{
+        max-width: 30%;
+      }
       @include smartphone {
         width: 80%;
         margin-bottom: 50px;

@@ -10,6 +10,9 @@
   &__logo img {
     width: 80px;
     padding-left: 10px;
+    @include wideScreen{
+      padding-left: 30px;
+    }
   }
   &__container {
     @include tabAndLess {
@@ -30,6 +33,9 @@
       justify-content: space-around;
       list-style-type: none;
       margin-bottom: 25px;
+      @include wideScreen{
+        padding-right: 30px;
+      }
       @include tabAndLess {
         z-index: 5000;
         flex-direction: column;

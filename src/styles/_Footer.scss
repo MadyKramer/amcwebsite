@@ -1,33 +1,38 @@
-.footer{
+.footer {
+  @include wideScreen {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  display: flex;
+  justify-content: space-between;
+  background-color: $salmon;
+  margin-bottom: 0;
+  margin-top: 100px;
+  padding: 10px;
+
+  &__links {
     display: flex;
-    justify-content: space-between;
-    background-color: $salmon;
-    margin-bottom: 0;
-    margin-top: 100px;
-    padding:10px;
-   
-    &__links{
-        display: flex;
-        flex-direction: column;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 15px;
+    & a {
+      text-decoration: none;
+      padding: 5px;
+      &:any-link {
         color: #fff;
-        font-size: 14px;
-        padding: 0 15px;
-        & a{
-            text-decoration: none;
-            padding: 5px;
-            &:any-link{
-                color: #fff;
-            }
-        }
+      }
     }
+  }
 }
 
-.link1 a{
-    text-align: left;
+.link1 a {
+  text-align: left;
 }
-.link2 a{
-    text-align: center;
+.link2 a {
+  text-align: center;
 }
-.link3 a{
-    text-align:end;
+.link3 a {
+  text-align: end;
 }

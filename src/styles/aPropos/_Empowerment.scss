@@ -1,6 +1,9 @@
 .empowerment {
   margin-top: 80px;
   position: relative;
+  @include wideScreen{
+    margin-top: 8%;
+  }
   &__content {
     margin-top: 40px;
     display: flex;
@@ -19,6 +22,9 @@
       & ul > li {
         padding: 10px 0px;
       }
+      @include wideScreen{
+        max-width: 16%;
+      }
       @include desktopAndLess{
         min-width: 40%;
       }
@@ -33,6 +39,9 @@
       height: 220px;
       padding: 20px;
       border-radius: 15px;
+      @include wideScreen{
+        max-width: 26%;
+      }
       @include desktopAndLess{
         min-width: 40%;
       }

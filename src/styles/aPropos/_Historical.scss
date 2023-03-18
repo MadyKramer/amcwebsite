@@ -1,5 +1,8 @@
 .historical {
   margin-top: 150px;
+  @include wideScreen{
+    margin-top: 10%;
+  }
   @include smartphone{
     margin-top: 520px;
   }

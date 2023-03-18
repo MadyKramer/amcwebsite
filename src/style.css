@@ -72,6 +72,11 @@
   width: 80px;
   padding-left: 10px;
 }
+@media (min-width: 1506px) {
+  .navbar__logo img {
+    padding-left: 30px;
+  }
+}
 @media (max-width: 1023px) {
   .navbar__container {
     display: none;
@@ -92,6 +97,11 @@
   justify-content: space-around;
   list-style-type: none;
   margin-bottom: 25px;
+}
+@media (min-width: 1506px) {
+  .navbar__container__list {
+    padding-right: 30px;
+  }
 }
 @media (max-width: 1023px) {
   .navbar__container__list {
@@ -179,6 +189,13 @@
   margin-bottom: 0;
   margin-top: 100px;
   padding: 10px;
+}
+@media (min-width: 1506px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
 .footer__links {
   display: flex;
@@ -573,6 +590,11 @@
   border-radius: 10px;
   z-index: -800;
 }
+@media (min-width: 1506px) {
+  .about__img {
+    left: 24%;
+  }
+}
 @media (max-width: 767px) {
   .about__img {
     position: relative;
@@ -598,6 +620,11 @@
   width: 50%;
   padding: 40px;
   border-radius: 15px;
+}
+@media (min-width: 1506px) {
+  .about__section__card {
+    max-width: 30%;
+  }
 }
 @media (max-width: 767px) {
   .about__section__card {
@@ -627,6 +654,11 @@
 
 .historical {
   margin-top: 150px;
+}
+@media (min-width: 1506px) {
+  .historical {
+    margin-top: 10%;
+  }
 }
 @media (max-width: 767px) {
   .historical {
@@ -714,6 +746,11 @@
   margin-top: 80px;
   position: relative;
 }
+@media (min-width: 1506px) {
+  .empowerment {
+    margin-top: 8%;
+  }
+}
 .empowerment__content {
   margin-top: 40px;
   display: flex;
@@ -735,6 +772,11 @@
 .empowerment__content__left ul > li {
   padding: 10px 0px;
 }
+@media (min-width: 1506px) {
+  .empowerment__content__left {
+    max-width: 16%;
+  }
+}
 @media (max-width: 1505px) {
   .empowerment__content__left {
     min-width: 40%;
@@ -752,6 +794,11 @@
   height: 220px;
   padding: 20px;
   border-radius: 15px;
+}
+@media (min-width: 1506px) {
+  .empowerment__content__right {
+    max-width: 26%;
+  }
 }
 @media (max-width: 1505px) {
   .empowerment__content__right {
@@ -915,6 +962,11 @@
   padding: 16px;
   border-radius: 15px;
 }
+@media (min-width: 1506px) {
+  .description__container__card {
+    max-width: 30%;
+  }
+}
 @media (max-width: 767px) {
   .description__container__card {
     width: 80%;
@@ -940,6 +992,11 @@
 .support {
   margin: 130px;
   position: relative;
+}
+@media (min-width: 1506px) {
+  .support {
+    margin-bottom: 12%;
+  }
 }
 @media (max-width: 767px) {
   .support {

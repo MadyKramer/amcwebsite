@@ -3,7 +3,7 @@ import duobench from "../../assets/duobench.jpg";
 const About = () => {
   
   return (
-    <section className="about" id="about-section">
+    <section className="about">
       <img
         className="about__img"
         src={duobench}

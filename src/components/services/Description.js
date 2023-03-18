@@ -2,7 +2,7 @@ import help from "../../assets/icons/help.png";
 
 const Description = () => {
   return (
-    <section className="description" id="description">
+    <section className="description">
       <div className="description__container" >
         <div className="description__container__card">
           <p>

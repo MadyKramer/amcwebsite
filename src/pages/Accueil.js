@@ -12,7 +12,7 @@ const Accueil = () => {
       <Intro />
       <ServicesHome />
       <div className="btnContainer">
-        <Link className="btn" to="/Services#description">
+        <Link className="btn" to="/Services#">
           En savoir plus
         </Link>
       </div>

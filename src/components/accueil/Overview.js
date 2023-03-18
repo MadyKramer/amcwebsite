@@ -2,6 +2,7 @@ import hands from "../../assets/hands.jpg"
 import { HashLink as Link } from 'react-router-hash-link';
 
 
+
 const Overview = () => {
   return (
     <section className="overview">
@@ -21,7 +22,7 @@ const Overview = () => {
             vie est qualifié·e· et veillera avec attention sur vos proches.
           </p>
           <div className="btnContainer">
-            <Link to="/Apropos#about-section" className="btn">
+            <Link to="/Apropos#" className="btn">
               En savoir plus
             </Link>
           </div>

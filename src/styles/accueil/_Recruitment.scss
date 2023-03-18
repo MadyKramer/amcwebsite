@@ -18,6 +18,9 @@
         width: 40%;
         border-radius: 15px;
         padding: 40px;
+        @include wideScreen{
+          max-width: 30%;
+        }
         @include tabAndLess{
           width: 90%;
           margin-top: 20px;

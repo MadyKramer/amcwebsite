@@ -13,9 +13,13 @@
     text-align: center;
     padding: 30px;
     font-size: 20px;
+    
     @include smartphone{
       font-size: 18px;
       padding:60px 10px 18px 10px;
+    }
+    @include wideScreen{
+      max-width: 1500px;
     }
   }
 }

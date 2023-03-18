@@ -14,7 +14,7 @@
 //Breakpoints 
 
 @mixin wideScreen{
-    @media (min-width:1505px) {@content;}
+    @media (min-width:1506px) {@content;}
 }
 @mixin desktopAndLess{
     @media (max-width: 1505px){@content;}

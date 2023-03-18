@@ -5,7 +5,7 @@
   @include desktopAndLess {
     flex-wrap: wrap;
     justify-content: center;
-    // gap: 15%; Juste changer les tailles des cards
+    
   }
   &__card {
     @include shadowBox;
@@ -17,6 +17,9 @@
     height: 230px;
     &:hover {
       transform: rotateX(180deg);
+    }
+    @include wideScreen{
+      margin: auto;
     }
     @include desktopAndLess {
       width: 400px;

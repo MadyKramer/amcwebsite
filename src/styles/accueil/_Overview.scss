@@ -1,10 +1,14 @@
 .overview {
   position: relative;
+  @include wideScreen{
+   margin-top: 6%;
+  }
   &__content {
     margin: 110px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
     @include tabAndLess{
       flex-direction: column-reverse;
     }
@@ -15,6 +19,9 @@
       width: 40%;
       border-radius: 15px;
       padding: 40px;
+      @include wideScreen{
+        max-width: 34%;
+      }
       @include tabAndLess{
         margin-top: 20px;
         width: 80%;
@@ -36,7 +43,7 @@
     }
   }
   &__background {
-    // position: absolute;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

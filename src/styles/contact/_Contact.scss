@@ -5,6 +5,10 @@
     justify-content: space-around;
     margin: 40px;
     font-size: 16px;
+    @include wideScreen{ // ! 
+      margin-bottom: 20%;
+      margin-top:10%;
+    }
     @include tabAndLess{
       flex-direction: column;
       margin:auto;

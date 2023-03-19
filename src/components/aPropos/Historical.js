@@ -4,7 +4,7 @@ const Historical = () => {
   return (
     <section className="historical">
       <div className="historical__header">
-        <h2 className="sectionTitle">Notre historique...</h2>
+        <h2 className="sectionTitle" tabIndex="0">Notre historique...</h2>
         <img
           src={history}
           className="historical__header__logo"
@@ -12,30 +12,30 @@ const Historical = () => {
         ></img>
       </div>
       <div className="historical__grid">
-        <div className="historical__grid__2006">2006</div>
-        <div className="historical__grid__2007">2007</div>
-        <div className="historical__grid__2010">2010</div>
-        <div className="historical__grid__2015">2015</div>
-        <div className="historical__grid__2016">2016</div>
+        <div className="historical__grid__2006" tabIndex="0">2006</div>
+        <div className="historical__grid__2007" tabIndex="1">2007</div>
+        <div className="historical__grid__2010" tabIndex="2">2010</div>
+        <div className="historical__grid__2015" tabIndex="3">2015</div>
+        <div className="historical__grid__2016" tabIndex="4">2016</div>
         <div className="historical__grid__separator1">·</div>
         <div className="historical__grid__separator2">·</div>
         <div className="historical__grid__separator3">·</div>
         <div className="historical__grid__separator4">·</div>
         <div className="historical__grid__separator5">·</div>
-        <div className="historical__grid__2006fact">
+        <div className="historical__grid__2006fact" tabIndex="0">
           AMC s’inscrit dans le plan de développement des services <strong>d’aide à la
           personne.</strong>
         </div>
-        <div className="historical__grid__2007fact">
+        <div className="historical__grid__2007fact" tabIndex="1">
           AMC est agréée simple pour la fourniture de services à la personne.{" "}
         </div>
-        <div className="historical__grid__2010fact">
+        <div className="historical__grid__2010fact" tabIndex="2">
           AMC est agréée Qualité pour la fourniture de <strong>services à la personne</strong>.
         </div>
-        <div className="historical__grid__2015fact">
+        <div className="historical__grid__2015fact" tabIndex="3">
           L’agrément AMC est renouvelé pour 5 ans après un audit externe.
         </div>
-        <div className="historical__grid__2016fact">
+        <div className="historical__grid__2016fact" tabIndex="4">
           Décret 2016-502 du 22avril 2016 de la loi ASV (Adaptation de la
           Société au Vieillissement) L’agrément Qualité de l’association passe
           sous le régime de l’autorisation de 15 ans

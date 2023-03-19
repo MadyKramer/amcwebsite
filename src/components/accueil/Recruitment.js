@@ -3,7 +3,7 @@ import enroll from "../../assets/icons/enroll.png";
 const Recruitment = () => {
   return (
     <section className="recruitment">
-      <h2 className="recruitment__title sectionTitle">Nous recrutons !</h2>
+      <h2 className="recruitment__title sectionTitle" tabIndex="0">Nous recrutons !</h2>
       <div className="recruitment__container">
         <img
           className="recruitment__container__img"
@@ -11,7 +11,7 @@ const Recruitment = () => {
           alt="personne accompagnant une personne âgée"
         ></img>
         <div className="recruitment__container__announcement">
-          <p>
+          <p tabIndex="0">
             AMC recrute des assistant·e·s de vie à domicile titulaires d'un
             diplôme professionnel niveau 5, des aides à domicile, des aides
             ménagères ainsi que des accompagnant·e·s.
@@ -23,13 +23,14 @@ const Recruitment = () => {
             Envoyez-nous votre CV ainsi qu'une lettre de motivation à l'adresse
             suivante:
           </p>
-          <div className="recruitment__container__announcement__address">
+          <div className="recruitment__container__announcement__address" tabIndex="0">
             701 rue Guy Pernin <br /> 54200 Toul{" "}
           </div>
-          <p>ou envoyez-nous CV et lettre de motivation par email:</p>
+          <p tabIndex="0">ou envoyez-nous CV et lettre de motivation par email:</p>
           <a
             className="recruitment__container__announcement__btn"
             href="mailto: toul@amcsap.fr"
+            tabIndex="0"
           >
             En cliquant ici !
           </a>

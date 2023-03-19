@@ -22,22 +22,22 @@ const Navbar = () => {
       <nav className={`navbar__container ${isMenuOpen ? "navbar__container--open menuAppear" : ""}`}>
         <ul className="navbar__container__list">
           <li >
-            <NavLink to="/" className={"navlinks"} onClick={() => setIsMenuOpen(false)}>
+            <NavLink to="/" className={"navlinks"} tabIndex="0" onClick={() => setIsMenuOpen(false)}>
               Accueil
             </NavLink>
           </li>
           <li>
-            <NavLink to="/Apropos" className={"navlinks"} onClick={() => setIsMenuOpen(false)}>
+            <NavLink to="/Apropos" className={"navlinks"} tabIndex="0" onClick={() => setIsMenuOpen(false)}>
               Qui sommes nous?
             </NavLink>
           </li>
           <li >
-            <NavLink to="/Services" className={"navlinks"} onClick={() => setIsMenuOpen(false)}>
+            <NavLink to="/Services" className={"navlinks"} tabIndex="0" onClick={() => setIsMenuOpen(false)}>
               Services
             </NavLink>
           </li>
           <li >
-            <NavLink to="/Contact" className={"navlinks"} onClick={() => setIsMenuOpen(false)}>
+            <NavLink to="/Contact" className={"navlinks"} tabIndex="0" onClick={() => setIsMenuOpen(false)}>
               Contact
             </NavLink>
           </li>

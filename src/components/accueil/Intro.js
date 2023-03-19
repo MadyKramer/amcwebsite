@@ -11,7 +11,7 @@ const Intro = () => {
           alt="logo de l'association"
           className="intro__logo"
         ></img>
-        <p className="intro__quote">
+        <p className="intro__quote" tabIndex="0">
           AMC oeuvre au quotidien au <strong>bien-être des personnes âgées et/ou
           handicapées</strong>, afin de faire en sorte que chaque individu puisse
           continuer d'écrire son histoire dans la sérénité.

@@ -11,9 +11,9 @@ const About = () => {
       ></img>
       <div className="about__section" > 
         <div className="about__section__card" >
-          <h2 className="sectionTitle" tabIndex="0">Qui sommes nous ? </h2>
-          <p className="separator">X</p>
-          <p className="about__section__card__txt" tabIndex="0">
+          <h2 className="sectionTitle" tabindex="0">Qui sommes nous ? </h2>
+          <p className="separator" >X</p>
+          <p className="about__section__card__txt" tabindex="0">
             <strong>AMC</strong> a été créée le 1er septembre 2006 par Alain Guérin. Elle
             intervient sur le secteur de <strong>Toul</strong> et ses environs. L'association
             porte assistance aux <strong>personnes âgées</strong> ou toute autre personne ayant

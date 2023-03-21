@@ -5,7 +5,7 @@ const Description = () => {
     <section className="description">
       <div className="description__container" >
         <div className="description__container__card">
-          <p>
+          <p tabindex="0">
             AMC vient en aide aux personnes handicapées (Parkinson, Alzheimer…),
             des personnes âgées et des personnes de retour d’hospitalisation.
             <br /> <br />

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
 .btnContainer {
   display: flex;
@@ -113,6 +113,7 @@
   }
 }
 .navbar__container__list > li {
+  font-weight: 400;
   cursor: pointer;
 }
 @media (max-width: 1023px) {
@@ -159,7 +160,7 @@
 }
 
 .active {
-  font-weight: bold;
+  font-weight: 800;
   color: #e91e63;
 }
 @media (max-width: 1023px) {
@@ -200,6 +201,7 @@
 .footer__links a {
   text-decoration: none;
   padding: 5px;
+  font-weight: 500;
 }
 .footer__links a:any-link {
   color: #fff;
@@ -523,10 +525,11 @@
   color: #fff;
   background-color: #e91e63;
   text-align: center;
+  font-weight: 500;
 }
 .recruitment__container__announcement__btn {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   padding: 20px;
   color: #fff;
   background-color: #e91e63;

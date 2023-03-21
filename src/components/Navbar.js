@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className="navbar">
       <div className="navbar__logo">
         <NavLink to="/">
-          <img src={logo} alt=""></img>
+          <img src={logo} alt="revenir à la page d'accueil"></img>
         </NavLink>
       </div>
       <nav className={`navbar__container ${isMenuOpen ? "navbar__container--open menuAppear" : ""}`}>

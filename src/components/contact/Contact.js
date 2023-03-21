@@ -5,21 +5,21 @@ import mappointer from "../../assets/icons/mappointer.png";
 const ContactComponent = () => {
   return (
     <section className="contact">
-      <h2 className="sectionTitle">Une question ? Contactez-nous ! </h2>
+      <h2 className="sectionTitle" tabindex="0">Une question ? Contactez-nous ! </h2>
       <div className="contact__container">
         <div className="contact__container__details">
           <div className="contact__container__details__phone">
             <img src={phone} alt="téléphone" className="logoSize"></img>
-            <p>09 53 02 17 29</p>
+            <p tabindex="0" aria-label="numéro de téléphone">09 53 02 17 29</p>
           </div>
           <div className="contact__container__details__email">
             <img src={email} alt="email" className="logoSize"></img>
-            <p>toul@amcsap.fr</p>
+            <p tabindex="0" aria-label="adresse email">toul@amcsap.fr</p>
           </div>
           <div className="contact__container__details__address">
             <img src={mappointer} alt="adresse" className="logoSize"></img>
-            <p>701 rue Guy Pernin 54200 Toul</p>
-            <p className="contact__container__details__address__mobility">
+            <p tabindex="0">701 rue Guy Pernin 54200 Toul</p>
+            <p tabindex="0" className="contact__container__details__address__mobility">
               (accessible aux personnes à mobilité réduite)
             </p>
           </div>

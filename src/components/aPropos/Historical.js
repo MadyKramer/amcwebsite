@@ -4,14 +4,14 @@ const Historical = () => {
   return (
     <section className="historical">
       <div className="historical__header">
-        <h2 className="sectionTitle" tabindex="0">Notre historique...</h2>
+        <h2 className="sectionTitle" tabIndex="0">Notre historique...</h2>
         <img
           src={history}
           className="historical__header__logo"
           alt="horloge"
         ></img>
       </div>
-      <div className="historical__grid" aria-orientation="horizontal" tabindex="0">
+      <div className="historical__grid" aria-orientation="horizontal" tabIndex="0">
         <div className="historical__grid__2006" >2006</div>
         <div className="historical__grid__2007" >2007</div>
         <div className="historical__grid__2010" >2010</div>

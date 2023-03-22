@@ -1,23 +1,23 @@
 const Empowerment = () => {
   return (
     <section className="empowerment">
-        <h2 className="sectionTitle" tabindex="0">Agréments et habilitations</h2>
+        <h2 className="sectionTitle" tabIndex="0">Agréments et habilitations</h2>
       <div className="empowerment__content">
         <div className="empowerment__content__left">
           <ul>
-            <li tabindex="0">Conseil départemental de Meurthe et Moselle</li>
-            <li tabindex="0">CARSAT</li>
-            <li tabindex="0">AGIRC-ARRCO "Sortir Plus"</li>
-            <li tabindex="0">RMA "Ressources Mutuelles Assistance</li>
-            <li tabindex="0">Sécurité Sociale Militaire</li>
-            <li tabindex="0">CESU</li>
+            <li tabIndex="0">Conseil départemental de Meurthe et Moselle</li>
+            <li tabIndex="0">CARSAT</li>
+            <li tabIndex="0">AGIRC-ARRCO "Sortir Plus"</li>
+            <li tabIndex="0">RMA "Ressources Mutuelles Assistance</li>
+            <li tabIndex="0">Sécurité Sociale Militaire</li>
+            <li tabIndex="0">CESU</li>
           </ul>
         </div>
         <div className="empowerment__content__right">
-          <h3 tabindex="0">AMC adhère à:</h3>
+          <h3 tabIndex="0">AMC adhère à:</h3>
           <ul>
-            <li tabindex="0"> la charte nationale qualité des services à la personne</li>
-            <li tabindex="0">
+            <li tabIndex="0"> la charte nationale qualité des services à la personne</li>
+            <li tabIndex="0">
               {" "}
               la Fédésap (Fédération Française des Services à la Personne et de
               Proximité)

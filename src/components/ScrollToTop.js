@@ -31,7 +31,7 @@ const ScrollToTop = () => {
   return (
     <>
       {isVisible && (
-        <div id="scrollToTop" arialabel="Remonter en haut de page" tabindex="0" onClick={scrollToTop} className={isVisible ? "show" : ""}>
+        <div id="scrollToTop" arialabel="Remonter en haut de page" tabIndex="0" onClick={scrollToTop} className={isVisible ? "show" : ""}>
           <img
             src={scrollup}
             alt="Remonter en haut de la page"

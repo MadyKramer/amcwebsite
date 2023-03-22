@@ -13,7 +13,7 @@ const ServicesHome = () => {
                 <img src={service.img} alt=""></img>
               </div>
               <div className="servicesHome__card__front__name">
-                <h3 tabindex="0" aria-label={service.name}>{service.name}</h3>
+                <h3 tabIndex="0" aria-label={service.name}>{service.name}</h3>
               </div>
             </div>
             <div className="servicesHome__card__back">

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cookie&family=Homemade+Apple&family=Reenie+Beanie&family=Rouge+Script&display=swap");
 .btnContainer {
   display: flex;
   justify-content: center;
@@ -365,6 +366,7 @@
 }
 .banner__quote {
   font-family: "La Belle Aurore", cursive;
+  font-weight: 400;
   font-size: 30px;
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
@@ -836,7 +838,7 @@
 .contact__container {
   display: flex;
   justify-content: space-around;
-  margin: 80px;
+  margin: 58px;
   font-size: 16px;
 }
 @media (min-width: 1800px) {
@@ -864,6 +866,7 @@
 }
 .contact__container__details__phone {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -878,6 +881,7 @@
 }
 .contact__container__details__email {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -892,6 +896,7 @@
 }
 .contact__container__details__address {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -910,11 +915,8 @@
   font-size: 12px;
 }
 .contact__container__map {
-  border: 14px solid #FEDCDC;
+  border: 10px solid #FEDCDC;
   border-radius: 15px;
-}
-.contact__container__map iframe {
-  height: 100%;
 }
 @media (max-width: 1023px) {
   .contact__container__map {
@@ -1052,7 +1054,7 @@
   align-items: center;
 }
 .support__card__header h3 {
-  font-family: "La Belle Aurore";
+  font-family: "Caveat";
   font-size: 28px;
 }
 @media (max-width: 767px) {
@@ -1106,7 +1108,7 @@ body {
 }
 
 .sectionTitle {
-  font-family: "La Belle Aurore", cursive;
+  font-family: "Caveat", cursive;
   font-size: 30px;
   padding: 0px 40px;
 }

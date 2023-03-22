@@ -3,7 +3,7 @@
   &__container {
     display: flex;
     justify-content: space-around;
-    margin: 80px;
+    margin: 58px;
     font-size: 16px;
     @include wideScreen{ 
       margin-bottom: 20%;
@@ -25,6 +25,7 @@
       
       &__phone {
         @include shadowBox;
+        border-radius:10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -38,6 +39,7 @@
       }
       &__email {
         @include shadowBox;
+        border-radius:10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -50,6 +52,7 @@
       }
       &__address {
         @include shadowBox;
+        border-radius:10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -67,11 +70,8 @@
       }
     }
     &__map {
-      border: 14px solid $chamalow;
+      border: 10px solid $chamalow;
       border-radius: 15px;
-      & iframe{
-        height: 100%;
-      }
       @include tabAndLess{
         display: flex;
         justify-content: center;

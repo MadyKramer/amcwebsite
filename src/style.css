@@ -10,7 +10,7 @@
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1411764706);
   text-decoration: none;
   color: #fff;
-  background-color: #e91e63;
+  background-color: #DF1659;
   border: none;
   font-weight: 600;
   font-size: 16px;
@@ -107,7 +107,7 @@
   .navbar__container__list {
     z-index: 5000;
     flex-direction: column;
-    background-color: #FC5A5A;
+    background-color: #EF4050;
     width: 100%;
     padding: 0;
   }
@@ -130,7 +130,7 @@
   }
 }
 .navbar__hamburgerMenu {
-  background-color: #FC5A5A;
+  background-color: #EF4050;
   display: none;
   padding: 14px;
   border-radius: 5px;
@@ -161,7 +161,7 @@
 
 .active {
   font-weight: 800;
-  color: #e91e63;
+  color: #DF1659;
 }
 @media (max-width: 1023px) {
   .active {
@@ -186,7 +186,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: #FC5A5A;
+  background-color: #DF1659;
   margin-bottom: 0;
   margin-top: 100px;
   padding: 10px;
@@ -523,7 +523,7 @@
   padding: 10px;
   border-radius: 5px;
   color: #fff;
-  background-color: #e91e63;
+  background-color: #DF1659;
   text-align: center;
   font-weight: 500;
 }
@@ -532,7 +532,7 @@
   font-weight: 700;
   padding: 20px;
   color: #fff;
-  background-color: #e91e63;
+  background-color: #DF1659;
   border-radius: 5px;
   border: none;
   text-decoration: none;
@@ -541,7 +541,7 @@
   transition-duration: 500ms;
 }
 .recruitment__container__announcement__btn:hover {
-  background-color: #FC5A5A;
+  background-color: #EF4050;
   transform: scale(1.05);
 }
 .recruitment__container__img {
@@ -836,7 +836,7 @@
 .contact__container {
   display: flex;
   justify-content: space-around;
-  margin: 40px;
+  margin: 80px;
   font-size: 16px;
 }
 @media (min-width: 1800px) {
@@ -910,8 +910,11 @@
   font-size: 12px;
 }
 .contact__container__map {
-  border: 20px solid #FEDCDC;
+  border: 14px solid #FEDCDC;
   border-radius: 15px;
+}
+.contact__container__map iframe {
+  height: 100%;
 }
 @media (max-width: 1023px) {
   .contact__container__map {
@@ -1118,7 +1121,7 @@ main {
 }
 
 .separator {
-  color: #e91e63;
+  color: #DF1659;
   position: relative;
   bottom: 28px;
 }
